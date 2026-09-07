@@ -1,0 +1,744 @@
+[
+  {
+    "id": 1,
+    "severity": "high",
+    "theme": "diagnostic_error",
+    "department": "ED/Cardiology",
+    "claim_text": "The patient, a 68-year-old male with hypertension and hyperlipidaemia, presented to the emergency department with central chest pain radiating to the jaw, accompanied by nausea and diaphoresis. Initial triage categorised him as amber despite a concerning history. The first ECG was interpreted as non-specific ST-T changes, and the patient remained in the waiting area for over 90 minutes due to bed pressures. During this time, he reported worsening pain and shortness of breath, but observations were not repeated. A second ECG performed two hours later demonstrated clear ST elevation in the anterior leads. Activation of the cath lab was delayed while senior review was sought. The patient subsequently suffered a cardiac arrest requiring 20 minutes of resuscitation. Angiography revealed a proximal LAD occlusion. The claim alleges failure to recognise evolving myocardial infarction, delayed escalation, and inadequate monitoring, resulting in hypoxic brain injury and prolonged ICU stay."
+  },
+  {
+    "id": 2,
+    "severity": "high",
+    "theme": "failure_to_escalate",
+    "department": "Surgery/ICU",
+    "claim_text": "A 54-year-old female underwent elective laparoscopic sigmoid resection. Post-operatively, she developed tachycardia, hypotension, and rising inflammatory markers. Despite a NEWS score of 7, escalation was delayed, and the surgical team was not informed until the following morning. The patient deteriorated overnight, becoming confused and oliguric. CT imaging revealed an anastomotic leak with free intra-abdominal fluid. Emergency laparotomy was performed, and the patient required ICU admission for septic shock. The claim alleges failure to follow sepsis protocols, delayed senior review, and inadequate post-operative monitoring, resulting in multi-organ failure and prolonged rehabilitation."
+  },
+  {
+    "id": 3,
+    "severity": "low",
+    "theme": "diagnostic_error",
+    "department": "ED/Fracture Clinic",
+    "claim_text": "A 32-year-old male attended A&E after falling from a bicycle, reporting wrist pain and swelling. X-rays were performed and reported as normal. The patient was discharged with analgesia and a splint. Symptoms persisted, and a repeat X-ray in fracture clinic one week later showed a non-displaced scaphoid fracture. The claim alleges missed diagnosis, avoidable pain, and delayed treatment, but no long-term functional deficit."
+  },
+  {
+    "id": 4,
+    "severity": "high",
+    "theme": "delay_in_treatment",
+    "department": "ED/Respiratory",
+    "claim_text": "A 76-year-old patient with COPD presented with fever, productive cough, and shortness of breath. Initial assessment suggested possible pneumonia, but antibiotics were delayed while awaiting chest X-ray confirmation. Observations showed rising respiratory rate and hypotension, yet escalation was not initiated. Over the next 24 hours, the patient deteriorated, requiring ICU admission for septic shock. The claim alleges failure to follow pneumonia pathways, delayed antibiotics, and inadequate monitoring."
+  },
+  {
+    "id": 5,
+    "severity": "high",
+    "theme": "fetal_monitoring_failure",
+    "department": "Maternity",
+    "claim_text": "A 29-year-old primigravida presented in labour with reduced fetal movements. CTG showed decelerations, but review was delayed due to staffing pressures. The patient remained in latent labour for several hours without senior assessment. Emergency caesarean section was eventually performed for fetal distress. The baby required resuscitation and therapeutic cooling. The claim alleges delayed CTG interpretation and failure to escalate concerns."
+  },
+
+  {
+    "id": 6,
+    "severity": "high",
+    "theme": "diagnostic_delay",
+    "department": "ED/Stroke Team",
+    "claim_text": "A 61-year-old female presented with sudden left-sided weakness and slurred speech. Triage delays meant she waited 45 minutes before assessment. CT was performed but thrombolysis was not considered due to misinterpretation of onset time. MRI later confirmed a right MCA infarct. The claim alleges missed thrombolysis window and delayed stroke team involvement."
+  },
+
+  {
+    "id": 7,
+    "severity": "moderate",
+    "theme": "diagnostic_delay",
+    "department": "GP/Oncology",
+    "claim_text": "A 52-year-old male reported persistent abdominal pain and weight loss. Initial GP assessment attributed symptoms to IBS. Blood tests showed anaemia, but repeat investigations were delayed. CT performed months later revealed colorectal cancer. The claim alleges delayed diagnosis and prolonged symptoms."
+  },
+
+  {
+    "id": 8,
+    "severity": "high",
+    "theme": "risk_assessment_failure",
+    "department": "Mental Health Crisis Team",
+    "claim_text": "A 23-year-old female presented with suicidal ideation. Assessment was conducted by a junior clinician without senior review. Safety plan was minimal, and follow-up was scheduled for two weeks later. The patient attempted suicide three days later. The claim alleges inadequate risk assessment and failure to escalate."
+  },
+
+  {
+    "id": 9,
+    "severity": "high",
+    "theme": "delay_in_treatment",
+    "department": "Paediatrics/ED",
+    "claim_text": "A 7-year-old child presented with fever, neck stiffness, and photophobia. LP was delayed while awaiting senior review. Antibiotics were withheld pending results. The child deteriorated rapidly and required ICU admission. The claim alleges delayed treatment for suspected meningitis."
+  },
+
+  {
+    "id": 10,
+    "severity": "moderate",
+    "theme": "post_op_complication",
+    "department": "Orthopaedics",
+    "claim_text": "A 66-year-old patient underwent knee replacement. Post-operative wound care was inconsistent, and signs of infection were missed. The patient required washout surgery and prolonged antibiotics. The claim alleges inadequate wound monitoring."
+  },
+
+  {
+    "id": 11,
+    "severity": "moderate",
+    "theme": "diagnostic_error",
+    "department": "ED",
+    "claim_text": "A 58-year-old male presented with palpitations and dizziness. ECG showed intermittent VT, but this was not recognised. The patient was discharged and collapsed at home. The claim alleges missed arrhythmia and delayed treatment."
+  },
+
+  {
+    "id": 12,
+    "severity": "high",
+    "theme": "failure_to_escalate",
+    "department": "ED/Gastroenterology",
+    "claim_text": "A 72-year-old patient presented with melena and hypotension. Senior review was delayed, and transfusion was not initiated promptly. Endoscopy later confirmed a bleeding ulcer. The claim alleges delayed escalation and inadequate monitoring."
+  },
+
+  {
+    "id": 13,
+    "severity": "high",
+    "theme": "delivery_complication",
+    "department": "Maternity",
+    "claim_text": "A 35-year-old multiparous woman experienced shoulder dystocia during delivery. Maneuvers were attempted but senior support was delayed. Baby suffered brachial plexus injury. The claim alleges delayed escalation."
+  },
+
+  {
+    "id": 14,
+    "severity": "high",
+    "theme": "delay_in_treatment",
+    "department": "ED",
+    "claim_text": "A 49-year-old male presented with fever, tachycardia, and hypotension. Sepsis screening was not completed. Antibiotics were delayed. The patient deteriorated and required ICU admission. The claim alleges failure to follow sepsis protocols."
+  },
+
+  {
+    "id": 15,
+    "severity": "high",
+    "theme": "diagnostic_error",
+    "department": "ED",
+    "claim_text": "A 44-year-old female presented with pleuritic chest pain and tachycardia. PE was not considered. D-dimer was not performed. CT later confirmed bilateral PE. The claim alleges missed diagnosis."
+  },
+
+  {
+    "id": 16,
+    "severity": "high",
+    "theme": "surgical_error",
+    "department": "Theatre",
+    "claim_text": "A swab was retained during abdominal surgery, requiring return to theatre. The claim alleges failure to follow WHO checklist."
+  },
+
+  {
+    "id": 17,
+    "severity": "moderate",
+    "theme": "delay_in_treatment",
+    "department": "ED",
+    "claim_text": "A 29-year-old male with epilepsy presented after multiple seizures. Anticonvulsants were delayed. The claim alleges inadequate management."
+  },
+
+  {
+    "id": 18,
+    "severity": "moderate",
+    "theme": "diagnostic_error",
+    "department": "Paediatrics",
+    "claim_text": "A 10-year-old child presented with abdominal pain. Appendicitis was missed. The child returned with perforation. The claim alleges delayed diagnosis."
+  },
+
+  {
+    "id": 19,
+    "severity": "moderate",
+    "theme": "medication_error",
+    "department": "Mental Health",
+    "claim_text": "Incorrect antipsychotic dose was prescribed, causing severe side effects. The claim alleges prescribing error."
+  },
+
+  {
+    "id": 20,
+    "severity": "low",
+    "theme": "administrative_delay",
+    "department": "GP",
+    "claim_text": "Referral for orthopaedic assessment was delayed due to administrative error. The claim alleges prolonged symptoms."
+  },
+
+  {
+    "id": 21,
+    "severity": "high",
+    "theme": "delay_in_treatment",
+    "department": "ED/ICU",
+    "claim_text": "A 71-year-old patient presented with rigors, hypotension, and confusion. Sepsis screening was incomplete, and antibiotics were delayed while awaiting blood culture results. The patient deteriorated rapidly, requiring vasopressors and intubation. The claim alleges failure to follow sepsis protocols and delayed escalation."
+  },
+
+  {
+    "id": 22,
+    "severity": "moderate",
+    "theme": "communication_failure",
+    "department": "Surgery",
+    "claim_text": "A 63-year-old patient underwent hernia repair. Post-operative instructions were unclear, leading to early mobilisation and wound dehiscence. The claim alleges inadequate communication and avoidable complication."
+  },
+
+  {
+    "id": 23,
+    "severity": "high",
+    "theme": "diagnostic_error",
+    "department": "ED",
+    "claim_text": "A 57-year-old female presented with severe headache and photophobia. Subarachnoid haemorrhage was not considered. CT was delayed. The patient collapsed at home later that evening. The claim alleges missed diagnosis and delayed imaging."
+  },
+
+  {
+    "id": 24,
+    "severity": "moderate",
+    "theme": "medication_error",
+    "department": "Pharmacy",
+    "claim_text": "A patient received double the intended dose of anticoagulant due to a transcription error. They developed significant bruising and required monitoring. The claim alleges medication error."
+  },
+
+  {
+    "id": 25,
+    "severity": "high",
+    "theme": "failure_to_escalate",
+    "department": "ED",
+    "claim_text": "A 48-year-old male presented with abdominal pain and hypotension. NEWS score reached 8, but escalation was delayed. CT later revealed a ruptured AAA. The claim alleges failure to escalate and delayed diagnosis."
+  },
+
+  {
+    "id": 26,
+    "severity": "moderate",
+    "theme": "post_op_complication",
+    "department": "General Surgery",
+    "claim_text": "A patient developed a wound infection after appendectomy. Signs were missed during routine checks. The claim alleges inadequate monitoring."
+  },
+
+  {
+    "id": 27,
+    "severity": "high",
+    "theme": "diagnostic_error",
+    "department": "ED",
+    "claim_text": "A 39-year-old female presented with chest pain. ECG changes were subtle and missed. She later suffered a cardiac arrest. The claim alleges missed diagnosis."
+  },
+
+  {
+    "id": 28,
+    "severity": "moderate",
+    "theme": "communication_failure",
+    "department": "GP",
+    "claim_text": "A patient was not informed of abnormal blood test results for several weeks. The claim alleges communication failure and delayed follow-up."
+  },
+
+  {
+    "id": 29,
+    "severity": "high",
+    "theme": "delay_in_treatment",
+    "department": "ED",
+    "claim_text": "A patient with suspected meningococcal sepsis experienced delays in antibiotic administration. They required ICU admission. The claim alleges delayed treatment."
+  },
+
+  {
+    "id": 30,
+    "severity": "low",
+    "theme": "administrative_delay",
+    "department": "Outpatients",
+    "claim_text": "An MRI appointment was delayed due to scheduling error. The claim alleges prolonged symptoms."
+  },
+
+  {
+    "id": 31,
+    "severity": "high",
+    "theme": "diagnostic_error",
+    "department": "ED",
+    "claim_text": "A 72-year-old male presented with back pain and urinary retention. Cauda equina syndrome was missed. MRI was delayed. The claim alleges missed diagnosis."
+  },
+
+  {
+    "id": 32,
+    "severity": "moderate",
+    "theme": "medication_error",
+    "department": "Pharmacy",
+    "claim_text": "A patient received incorrect insulin dose due to a charting error. They experienced hypoglycaemia. The claim alleges medication error."
+  },
+
+  {
+    "id": 33,
+    "severity": "high",
+    "theme": "failure_to_escalate",
+    "department": "ED",
+    "claim_text": "A patient with severe abdominal pain and tachycardia was not escalated despite rising NEWS score. Later diagnosed with perforated bowel. The claim alleges failure to escalate."
+  },
+
+  {
+    "id": 34,
+    "severity": "moderate",
+    "theme": "post_op_complication",
+    "department": "Orthopaedics",
+    "claim_text": "A patient developed DVT after knee surgery. Prophylaxis was inconsistently administered. The claim alleges inadequate post-operative care."
+  },
+
+  {
+    "id": 35,
+    "severity": "high",
+    "theme": "diagnostic_delay",
+    "department": "ED",
+    "claim_text": "A patient with severe headache waited four hours for CT. Later diagnosed with intracranial bleed. The claim alleges delayed imaging."
+  },
+
+  {
+    "id": 36,
+    "severity": "moderate",
+    "theme": "communication_failure",
+    "department": "GP",
+    "claim_text": "A patient was not informed of abnormal thyroid results. Treatment was delayed. The claim alleges communication failure."
+  },
+
+  {
+    "id": 37,
+    "severity": "high",
+    "theme": "delay_in_treatment",
+    "department": "ED",
+    "claim_text": "A patient with suspected sepsis waited three hours for antibiotics. They deteriorated and required ICU admission. The claim alleges delayed treatment."
+  },
+
+  {
+    "id": 38,
+    "severity": "moderate",
+    "theme": "diagnostic_error",
+    "department": "Paediatrics",
+    "claim_text": "A child with abdominal pain was misdiagnosed with gastroenteritis. Later found to have appendicitis. The claim alleges diagnostic error."
+  },
+
+  {
+    "id": 39,
+    "severity": "high",
+    "theme": "surgical_error",
+    "department": "Theatre",
+    "claim_text": "A surgical instrument was retained during procedure. The patient required return to theatre. The claim alleges surgical error."
+  },
+
+  {
+    "id": 40,
+    "severity": "low",
+    "theme": "administrative_delay",
+    "department": "Outpatients",
+    "claim_text": "A follow-up appointment was delayed due to clerical error. The claim alleges prolonged symptoms."
+  },
+
+  {
+    "id": 41,
+    "severity": "high",
+    "theme": "diagnostic_error",
+    "department": "ED",
+    "claim_text": "A patient with chest pain was discharged without troponin testing. Later diagnosed with NSTEMI. The claim alleges missed diagnosis."
+  },
+
+  {
+    "id": 42,
+    "severity": "moderate",
+    "theme": "medication_error",
+    "department": "Pharmacy",
+    "claim_text": "A patient received incorrect warfarin dose. INR became dangerously high. The claim alleges medication error."
+  },
+
+  {
+    "id": 43,
+    "severity": "high",
+    "theme": "failure_to_escalate",
+    "department": "ED",
+    "claim_text": "A patient with severe abdominal pain and hypotension was not escalated. Later diagnosed with ruptured ectopic pregnancy. The claim alleges failure to escalate."
+  },
+
+  {
+    "id": 44,
+    "severity": "moderate",
+    "theme": "post_op_complication",
+    "department": "General Surgery",
+    "claim_text": "A patient developed ileus after bowel surgery. Monitoring was inconsistent. The claim alleges inadequate post-operative care."
+  },
+
+  {
+    "id": 45,
+    "severity": "high",
+    "theme": "diagnostic_delay",
+    "department": "ED",
+    "claim_text": "A patient with sudden vision loss waited hours for ophthalmology review. Later diagnosed with retinal detachment. The claim alleges delayed diagnosis."
+  },
+
+  {
+    "id": 46,
+    "severity": "moderate",
+    "theme": "communication_failure",
+    "department": "GP",
+    "claim_text": "A patient was not informed of abnormal kidney function results. Treatment was delayed. The claim alleges communication failure."
+   },
+  {
+    "id": 47,
+    "severity": "high",
+    "theme": "diagnostic_error",
+    "department": "ED/Cardiology",
+    "claim_text": "A 73-year-old male presented with crushing chest pain and diaphoresis. Initial ECG was interpreted as normal, and troponin testing was delayed. The patient deteriorated overnight and suffered a cardiac arrest. Later review showed subtle ST elevation missed on the first ECG. The claim alleges diagnostic error and delayed escalation."
+  },
+  {
+    "id": 48,
+    "severity": "moderate",
+    "theme": "post_op_complication",
+    "department": "General Surgery",
+    "claim_text": "A patient developed a seroma following hernia repair. Early signs were missed, and drainage was delayed. The claim alleges inadequate post-operative monitoring."
+  },
+  {
+    "id": 49,
+    "severity": "high",
+    "theme": "delay_in_treatment",
+    "department": "ED/ICU",
+    "claim_text": "A 68-year-old female presented with fever, hypotension, and confusion. Sepsis protocol was not initiated, and antibiotics were delayed for over three hours. The patient required ICU admission for septic shock. The claim alleges delayed treatment."
+  },
+  {
+    "id": 50,
+    "severity": "low",
+    "theme": "administrative_delay",
+    "department": "Outpatients",
+    "claim_text": "A follow-up dermatology appointment was delayed due to scheduling error. The claim alleges prolonged symptoms but no long-term harm."
+  },
+  {
+    "id": 51,
+    "severity": "high",
+    "theme": "diagnostic_delay",
+    "department": "ED/Neurology",
+    "claim_text": "A 59-year-old male presented with sudden onset weakness and facial droop. CT was delayed due to scanner availability. Thrombolysis was missed. MRI later confirmed a large MCA infarct. The claim alleges delayed imaging and missed treatment window."
+  },
+  {
+    "id": 52,
+    "severity": "moderate",
+    "theme": "medication_error",
+    "department": "Pharmacy",
+    "claim_text": "A patient received incorrect methotrexate dosing instructions, leading to toxicity symptoms. The claim alleges prescribing and dispensing error."
+  },
+  {
+    "id": 53,
+    "severity": "high",
+    "theme": "failure_to_escalate",
+    "department": "ED",
+    "claim_text": "A patient with severe abdominal pain and tachycardia was not escalated despite a NEWS score of 9. Later diagnosed with perforated diverticulitis. The claim alleges failure to escalate."
+  },
+  {
+    "id": 54,
+    "severity": "moderate",
+    "theme": "post_op_complication",
+    "department": "Orthopaedics",
+    "claim_text": "A patient developed stiffness and reduced mobility after hip replacement due to inadequate physiotherapy follow-up. The claim alleges poor post-operative care."
+  },
+  {
+    "id": 55,
+    "severity": "high",
+    "theme": "diagnostic_error",
+    "department": "ED",
+    "claim_text": "A patient with chest pain was discharged without repeat ECG or troponin testing. Later diagnosed with NSTEMI. The claim alleges missed diagnosis."
+  },
+  {
+    "id": 56,
+    "severity": "moderate",
+    "theme": "communication_failure",
+    "department": "GP",
+    "claim_text": "A patient was not informed of abnormal liver function tests. Follow-up was delayed. The claim alleges communication failure."
+  },
+  {
+    "id": 57,
+    "severity": "high",
+    "theme": "delay_in_treatment",
+    "department": "ED/ICU",
+    "claim_text": "A patient with suspected sepsis waited four hours for antibiotics due to staffing shortages. They deteriorated and required ICU admission. The claim alleges delayed treatment."
+  },
+  {
+    "id": 58,
+    "severity": "moderate",
+    "theme": "diagnostic_error",
+    "department": "Paediatrics",
+    "claim_text": "A child with fever and rash was misdiagnosed with viral illness. Later found to have Kawasaki disease. The claim alleges diagnostic error."
+  },
+  {
+    "id": 59,
+    "severity": "high",
+    "theme": "surgical_error",
+    "department": "Theatre",
+    "claim_text": "A surgical clip was misplaced during cholecystectomy, causing bile duct injury. The patient required further surgery. The claim alleges surgical error."
+  },
+  {
+    "id": 60,
+    "severity": "low",
+    "theme": "administrative_delay",
+    "department": "Outpatients",
+    "claim_text": "A physiotherapy referral was delayed due to clerical error. The claim alleges prolonged symptoms."
+  },
+  {
+    "id": 61,
+    "severity": "high",
+    "theme": "diagnostic_error",
+    "department": "ED",
+    "claim_text": "A patient with severe back pain and urinary retention was misdiagnosed with musculoskeletal strain. MRI was delayed. Later confirmed cauda equina syndrome. The claim alleges missed diagnosis."
+  },
+  {
+    "id": 62,
+    "severity": "moderate",
+    "theme": "medication_error",
+    "department": "Pharmacy",
+    "claim_text": "A patient received incorrect steroid tapering instructions, leading to adrenal symptoms. The claim alleges medication error."
+  },
+  {
+    "id": 63,
+    "severity": "high",
+    "theme": "failure_to_escalate",
+    "department": "ED",
+    "claim_text": "A patient with severe abdominal pain and hypotension was not escalated. Later diagnosed with ruptured ectopic pregnancy. The claim alleges failure to escalate."
+  },
+  {
+    "id": 64,
+    "severity": "moderate",
+    "theme": "post_op_complication",
+    "department": "General Surgery",
+    "claim_text": "A patient developed ileus after bowel surgery. Monitoring was inconsistent. The claim alleges inadequate post-operative care."
+  },
+  {
+    "id": 65,
+    "severity": "high",
+    "theme": "diagnostic_delay",
+    "department": "ED/Ophthalmology",
+    "claim_text": "A patient with sudden vision loss waited hours for ophthalmology review. Later diagnosed with retinal detachment. The claim alleges delayed diagnosis."
+  },
+  {
+    "id": 66,
+    "severity": "moderate",
+    "theme": "communication_failure",
+    "department": "GP",
+    "claim_text": "A patient was not informed of abnormal kidney function results. Treatment was delayed. The claim alleges communication failure."
+  },
+  {
+    "id": 67,
+    "severity": "high",
+    "theme": "delay_in_treatment",
+    "department": "ED",
+    "claim_text": "A patient with suspected meningococcal sepsis experienced delays in antibiotic administration. They required ICU admission. The claim alleges delayed treatment."
+  },
+  {
+    "id": 68,
+    "severity": "moderate",
+    "theme": "diagnostic_error",
+    "department": "Paediatrics",
+    "claim_text": "A child with abdominal pain was misdiagnosed with gastroenteritis. Later found to have appendicitis. The claim alleges diagnostic error."
+  },
+  {
+    "id": 69,
+    "severity": "high",
+    "theme": "surgical_error",
+    "department": "Theatre",
+    "claim_text": "A surgical instrument was retained during procedure. The patient required return to theatre. The claim alleges surgical error."
+  },
+  {
+    "id": 70,
+    "severity": "low",
+    "theme": "administrative_delay",
+    "department": "Outpatients",
+    "claim_text": "A follow-up appointment was delayed due to clerical error. The claim alleges prolonged symptoms."
+  },
+  {
+    "id": 71,
+    "severity": "high",
+    "theme": "diagnostic_error",
+    "department": "ED/Cardiology",
+    "claim_text": "A patient with chest pain was discharged without troponin testing. Later diagnosed with NSTEMI. The claim alleges missed diagnosis."
+  },
+  {
+    "id": 72,
+    "severity": "moderate",
+    "theme": "medication_error",
+    "department": "Pharmacy",
+    "claim_text": "A patient received incorrect warfarin dose. INR became dangerously high. The claim alleges medication error."
+  },
+  {
+    "id": 73,
+    "severity": "high",
+    "theme": "failure_to_escalate",
+    "department": "ED",
+    "claim_text": "A patient with severe abdominal pain and hypotension was not escalated. Later diagnosed with ruptured ectopic pregnancy. The claim alleges failure to escalate."
+  },
+  {
+    "id": 74,
+    "severity": "moderate",
+    "theme": "post_op_complication",
+    "department": "General Surgery",
+    "claim_text": "A patient developed ileus after bowel surgery. Monitoring was inconsistent. The claim alleges inadequate post-operative care."
+  },
+  {
+    "id": 75,
+    "severity": "high",
+    "theme": "diagnostic_delay",
+    "department": "ED",
+    "claim_text": "A patient with severe headache waited four hours for CT. Later diagnosed with intracranial bleed. The claim alleges delayed imaging."
+  },
+  {
+    "id": 76,
+    "severity": "moderate",
+    "theme": "communication_failure",
+    "department": "GP",
+    "claim_text": "A patient was not informed of abnormal thyroid results. Treatment was delayed. The claim alleges communication failure."
+  },
+  {
+    "id": 77,
+    "severity": "high",
+    "theme": "delay_in_treatment",
+    "department": "ED",
+    "claim_text": "A patient with suspected sepsis waited three hours for antibiotics. They deteriorated and required ICU admission. The claim alleges delayed treatment."
+  },
+  {
+    "id": 78,
+    "severity": "moderate",
+    "theme": "diagnostic_error",
+    "department": "Paediatrics",
+    "claim_text": "A child with abdominal pain was misdiagnosed with gastroenteritis. Later found to have appendicitis. The claim alleges diagnostic error."
+  },
+  {
+    "id": 79,
+    "severity": "high",
+    "theme": "surgical_error",
+    "department": "Theatre",
+    "claim_text": "A surgical instrument was retained during procedure. The patient required return to theatre. The claim alleges surgical error."
+  },
+  {
+    "id": 80,
+    "severity": "low",
+    "theme": "administrative_delay",
+    "department": "Outpatients",
+    "claim_text": "A follow-up appointment was delayed due to clerical error. The claim alleges prolonged symptoms."
+  },
+  {
+    "id": 81,
+    "severity": "high",
+    "theme": "diagnostic_error",
+    "department": "ED",
+    "claim_text": "A patient with chest pain was discharged without troponin testing. Later diagnosed with NSTEMI. The claim alleges missed diagnosis."
+  },
+  {
+    "id": 82,
+    "severity": "moderate",
+    "theme": "medication_error",
+    "department": "Pharmacy",
+    "claim_text": "A patient received incorrect warfarin dose. INR became dangerously high. The claim alleges medication error."
+  },
+  {
+    "id": 83,
+    "severity": "high",
+    "theme": "failure_to_escalate",
+    "department": "ED",
+    "claim_text": "A patient with severe abdominal pain and hypotension was not escalated. Later diagnosed with ruptured ectopic pregnancy. The claim alleges failure to escalate."
+  },
+  {
+    "id": 84,
+    "severity": "moderate",
+    "theme": "post_op_complication",
+    "department": "General Surgery",
+    "claim_text": "A patient developed ileus after bowel surgery. Monitoring was inconsistent. The claim alleges inadequate post-operative care."
+  },
+  {
+    "id": 85,
+    "severity": "high",
+    "theme": "diagnostic_delay",
+    "department": "ED",
+    "claim_text": "A patient with severe headache waited four hours for CT. Later diagnosed with intracranial bleed. The claim alleges delayed imaging."
+  },
+  {
+    "id": 86,
+    "severity": "moderate",
+    "theme": "communication_failure",
+    "department": "GP",
+    "claim_text": "A patient was not informed of abnormal thyroid results. Treatment was delayed. The claim alleges communication failure."
+  },
+  {
+    "id": 87,
+    "severity": "high",
+    "theme": "delay_in_treatment",
+    "department": "ED",
+    "claim_text": "A patient with suspected sepsis waited three hours for antibiotics. They deteriorated and required ICU admission. The claim alleges delayed treatment."
+  },
+  {
+    "id": 88,
+    "severity": "moderate",
+    "theme": "diagnostic_error",
+    "department": "Paediatrics",
+    "claim_text": "A child with abdominal pain was misdiagnosed with gastroenteritis. Later found to have appendicitis. The claim alleges diagnostic error."
+  },
+  {
+    "id": 89,
+    "severity": "high",
+    "theme": "surgical_error",
+    "department": "Theatre",
+    "claim_text": "A surgical instrument was retained during procedure. The patient required return to theatre. The claim alleges surgical error."
+  },
+  {
+    "id": 90,
+    "severity": "low",
+    "theme": "administrative_delay",
+    "department": "Outpatients",
+    "claim_text": "A follow-up appointment was delayed due to clerical error. The claim alleges prolonged symptoms."
+  },
+  {
+    "id": 91,
+    "severity": "high",
+    "theme": "diagnostic_error",
+    "department": "ED",
+    "claim_text": "A patient with chest pain was discharged without troponin testing. Later diagnosed with NSTEMI. The claim alleges missed diagnosis."
+  },
+  {
+    "id": 92,
+    "severity": "moderate",
+    "theme": "medication_error",
+    "department": "Pharmacy",
+    "claim_text": "A patient received incorrect warfarin dose. INR became dangerously high. The claim alleges medication error."
+  },
+  {
+    "id": 93,
+    "severity": "high",
+    "theme": "failure_to_escalate",
+    "department": "ED",
+    "claim_text": "A patient with severe abdominal pain and hypotension was not escalated. Later diagnosed with ruptured ectopic pregnancy. The claim alleges failure to escalate."
+  },
+  {
+    "id": 94,
+    "severity": "moderate",
+    "theme": "post_op_complication",
+    "department": "General Surgery",
+    "claim_text": "A patient developed ileus after bowel surgery. Monitoring was inconsistent. The claim alleges inadequate post-operative care."
+  },
+  {
+    "id": 95,
+    "severity": "high",
+    "theme": "diagnostic_delay",
+    "department": "ED",
+    "claim_text": "A patient with severe headache waited four hours for CT. Later diagnosed with intracranial bleed. The claim alleges delayed imaging."
+  },
+  {
+    "id": 96,
+    "severity": "moderate",
+    "theme": "communication_failure",
+    "department": "GP",
+    "claim_text": "A patient was not informed of abnormal thyroid results. Treatment was delayed. The claim alleges communication failure."
+  },
+  {
+    "id": 97,
+    "severity": "high",
+    "theme": "delay_in_treatment",
+    "department": "ED",
+    "claim_text": "A patient with suspected sepsis waited three hours for antibiotics. They deteriorated and required ICU admission. The claim alleges delayed treatment."
+  },
+  {
+    "id": 98,
+    "severity": "moderate",
+    "theme": "diagnostic_error",
+    "department": "Paediatrics",
+    "claim_text": "A child with abdominal pain was misdiagnosed with gastroenteritis. Later found to have appendicitis. The claim alleges diagnostic error."
+  },
+  {
+    "id": 99,
+    "severity": "high",
+    "theme": "surgical_error",
+    "department": "Theatre",
+    "claim_text": "A surgical instrument was retained during procedure. The patient required return to theatre. The claim alleges surgical error."
+  },
+  {
+    "id": 100,
+    "severity": "low",
+    "theme": "administrative_delay",
+    "department": "Outpatients",
+    "claim_text": "A follow-up appointment was delayed due to clerical error. The claim alleges prolonged symptoms."
+  }
+]
+
