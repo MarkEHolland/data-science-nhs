@@ -1,0 +1,21 @@
+# Poetry virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environment files
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# transformer models that have been downloaded
+notebooks/bert/
+notebooks/longformer/
+notebooks/multitask/
