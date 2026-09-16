@@ -77,8 +77,8 @@
 
   {
     "id": 11,
-    "severity": "moderate",
-    "theme": "diagnostic_error",
+    "severity": "high",
+    "theme": "failure_to_escalate",
     "department": "ED",
     "claim_text": "A 58-year-old male presented with palpitations and dizziness. ECG showed intermittent VT, but this was not recognised. The patient was discharged and collapsed at home. The claim alleges missed arrhythmia and delayed treatment."
   },
